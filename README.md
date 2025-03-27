@@ -27,4 +27,14 @@ This tool allows users to input character names, themes, genres, and moral lesso
 - GitHub Pages (optional)
 
 ## 📂 Project Structure
-
+```plaintext
+once-upon-ai/
+├── app.py               # Main web interface
+├── story_generator.py   # GPT-based story creation
+├── image_generator.py   # DALL·E / Stable Diffusion illustration generation
+├── pdf_exporter.py      # PDF generation logic
+├── templates/           # HTML templates (for Flask)
+├── static/              # CSS, images, or assets
+├── requirements.txt     # Python dependencies
+├── README.md            # Project overview and instructions
+└── .gitignore           # Files/directories to exclude from version control
