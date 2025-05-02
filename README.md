@@ -11,7 +11,7 @@ A creative, user-driven AI tool that transforms imagination into beautifully wri
 This tool allows users to input character names, themes, genres, and moral lessons. The system then:
 - Generates a personalized children's story using GPT
 - Creates matching illustrations using DALL·E or Stable Diffusion
-- Exports the story as a PDF or shows it in an online flipbook
+- Shows it in an online flipbook
 
 ## 🚀 Features
 - AI-based text and image generation
