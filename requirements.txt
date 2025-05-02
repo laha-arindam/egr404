@@ -1,0 +1,6 @@
+python-dotenv
+pydantic
+streamlit
+openai==0.28.1
+fpdf
+requests
