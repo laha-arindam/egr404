@@ -16,7 +16,6 @@ This tool allows users to input character names, themes, genres, and moral lesso
 ## 🚀 Features
 - AI-based text and image generation
 - Clean web interface (Flask or Streamlit)
-- Export to PDF
 - Personalization based on user input
 
 ## 🛠️ Tech Stack
@@ -32,7 +31,6 @@ once-upon-ai/
 ├── app.py               # Main web interface
 ├── story_generator.py   # GPT-based story creation
 ├── image_generator.py   # DALL·E / Stable Diffusion illustration generation
-├── pdf_exporter.py      # PDF generation logic
 ├── templates/           # HTML templates (for Flask)
 ├── static/              # CSS, images, or assets
 ├── requirements.txt     # Python dependencies
