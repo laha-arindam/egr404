@@ -35,7 +35,7 @@ once-upon-ai/
 ├── requirements.txt     # Python dependencies
 ├── README.md            # Project overview and instructions
 └── .gitignore           # Files/directories to exclude from version control
-```plaintext
+
 
 
 ---
