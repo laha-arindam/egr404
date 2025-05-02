@@ -35,14 +35,19 @@ once-upon-ai/
 ├── requirements.txt     # Python dependencies
 ├── README.md            # Project overview and instructions
 └── .gitignore           # Files/directories to exclude from version control
+```plaintext
 
+
+---
+
+### ✅ 🔐 Environment Setup (Fixed)
+```markdown
 ## 🔐 Environment Setup
 
 Create a `.env` file in the project root directory and add your OpenAI API key:
 
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
-```
 
 This is required to authenticate with the OpenAI API for story and image generation.
 
