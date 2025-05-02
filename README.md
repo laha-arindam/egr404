@@ -21,7 +21,6 @@ This tool allows users to input character names, themes, genres, and moral lesso
 ## 🛠️ Tech Stack
 - OpenAI API (text/image)
 - Flask / Streamlit
-- FPDF or ReportLab (PDF export)
 - Hugging Face datasets
 - GitHub Pages (optional)
 
@@ -36,3 +35,41 @@ once-upon-ai/
 ├── requirements.txt     # Python dependencies
 ├── README.md            # Project overview and instructions
 └── .gitignore           # Files/directories to exclude from version control
+
+## 🔐 Environment Setup
+
+Create a `.env` file in the project root directory and add your OpenAI API key:
+
+```env
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
+This is required to authenticate with the OpenAI API for story and image generation.
+
+
+## 🧰 Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/once-upon-ai.git
+cd once-upon-ai
+```
+
+### 2. Create a virtual environment
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the app
+```bash
+streamlit run app.py
+```
+
