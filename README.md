@@ -25,7 +25,6 @@ This tool allows users to input character names, themes, genres, and moral lesso
 - GitHub Pages (optional)
 
 ## 📂 Project Structure
-```plaintext
 once-upon-ai/
 ├── app.py               # Main web interface
 ├── story_generator.py   # GPT-based story creation
